@@ -2,14 +2,29 @@
 .home {
     padding: 20px;
   }
+
+  .lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px ;
+    padding: 130px 0px 0px 0px;
+  }
+  
   
   .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f4f4f4;
-    padding: 40px;
+    background-image:url('../assets/images/men3.webp') ;
+    background-size: cover; /* Ensures the image covers the entire banner area */
+    background-position: center; /* Centers the image in the banner */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #fff; /* Ensures text is visible over the background image */
+    padding: 20px;
     text-align: center;
+    min-height: 500px; 
+    background-color: #f4f4f4;
   }
   
   .categories,

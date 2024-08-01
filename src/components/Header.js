@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <div className="logo">MyEcommerce</div>
+      <div className="logo">SolefulSupply</div>
       <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="/">Home</a></li>
