@@ -15,16 +15,17 @@ const Home = () => {
   return (
     <div className="home">
       <section className="banner">
-        <h1 className='lobster-regular'>SolefulSupply</h1>
-        {/* <p>Shop the best products at the best prices</p> */}
+        <h1 className="lobster-regular">Welcome to MyEcommerce</h1>
+        <p>Shop the best products at the best prices</p>
       </section>
       <section className="categories">
-        <h2>Categories</h2>
         <div className="category-grid">
           <div className="category">WOMAN</div>
           <div className="category">MAN</div>
           <div className="category">KIDS</div>
           <div className="category">SHOES</div>
+          <div className="category">BAGS</div>
+          <div className="category">BEAUTY</div>
         </div>
       </section>
       <section className="featured-products">
